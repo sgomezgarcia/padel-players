@@ -1,0 +1,116 @@
+.title{
+    font-weight: bold;
+    margin: 15px;
+}
+
+body{
+    background: linear-gradient(#85d8ce,#085078);
+    height: 1000px;
+}
+.add{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.form{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.first{
+    width: 33%;
+    font-weight: bold;   
+    margin-bottom: 10px;
+   display: block; 
+
+}
+
+.type-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.player-container{
+    background-color:white;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+
+
+}
+
+.user{
+    background-color: white;
+    height: 80px;
+    display: flex;
+}
+
+.image-container{
+    flex: 0 5%;
+}
+
+.user-image{
+    height: 100%;
+    width: 80px;
+}
+
+.image-player {
+    width: 50px;
+}
+
+.user-text{
+    flex: 0 95%;
+}
+
+.user-info{
+    align-items: center;
+    background: lightgrey;
+    border-radius: 5px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+    word-spacing: 10px;
+}
+
+.player-list{
+    font-weight: bold;
+    margin: 15px;
+}
+
+.new-player{
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.button-add{
+    font-weight: bold;
+    background-color: white;
+    border: 2px solid #59a9c9;
+    float: right;
+
+}
+
+.bt-borrar{
+    right: inherit;
+}
+
+@media (max-width: 1500px) {
+    .type-container {
+        flex-direction: column;
+    }
+}
